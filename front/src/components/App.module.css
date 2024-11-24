@@ -1,0 +1,48 @@
+.app {
+  width: 800px;
+  margin: 0 auto;
+  height: inherit;
+}
+
+.translatePanel {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  width: 100%;
+}
+
+.translateForm {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  flex: 1;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+
+.dropdowm {
+  width: 100%;
+}
+.textarea {
+  width: 100%;
+}
+
+.result {
+  width: 100%;
+  flex: 1;
+}
+
+.history {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.historyTitle {
+  margin-top: 20px;
+}
